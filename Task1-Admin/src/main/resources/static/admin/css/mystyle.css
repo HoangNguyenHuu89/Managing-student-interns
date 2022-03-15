@@ -1,0 +1,11 @@
+@charset "ISO-8859-1";
+#search-by-name {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#message {
+	color: red;
+	margin-top: 20px;
+	margin-left: 30px; 
+	margin-bottom: -10px;
+}

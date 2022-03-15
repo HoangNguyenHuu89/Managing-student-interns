@@ -1,0 +1,11 @@
+package com.example.myspring.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.myspring.model.Position;
+
+public interface PositionRepository extends JpaRepository<Position, String> {
+	List<Position> findByNameContaining(String keyword);
+}
